@@ -1,0 +1,35 @@
+
+0 grassy start
+1 grassy
+2 grassy
+3 swampy
+4 grassy
+5 swampy
+6 mountainous
+7 grassy
+8 grassy
+9 grassy
+10 grassy finish
+11 grassy
+12 mountainous
+13 grassy
+
+0 1 strong
+1 2 strong
+2 3 strong
+1 3 week
+2 4 strong
+4 5 strong
+4 6 strong
+5 7 strong
+7 9 weak
+7 8 strong
+6 8 weak
+6 10 weak
+8 10 strong
+11 12 weak
+11 3 weak
+12 13 weak
+13 0 weak
+
+

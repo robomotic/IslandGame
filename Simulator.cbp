@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Simulator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Simulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="src" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lboost_filesystem" />
+					<Add option="-lboost_system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Simulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Bridge.h" />
+		<Unit filename="include/Island.h" />
+		<Unit filename="include/MapIsland.h" />
+		<Unit filename="include/PrimeUtils.h" />
+		<Unit filename="include/Tournament.h" />
+		<Unit filename="include/Vehicle.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Bridge.cpp" />
+		<Unit filename="src/Island.cpp" />
+		<Unit filename="src/MapIsland.cpp" />
+		<Unit filename="src/Tournament.cpp" />
+		<Unit filename="src/Vehicle.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
